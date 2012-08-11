@@ -1,0 +1,533 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	color: #fff;
+	background-color: #111;
+}
+#mainWrapper {
+	display:block;
+	width:944px;
+	height:auto;
+	margin:auto;
+	background-color:dimGray;
+	text-align: left;
+	vertical-align: top;
+}
+.header {
+	display:block;
+	width:950px;
+	height:108px;
+	margin:auto;
+}
+.logo {
+	display:block;
+	width:279px;
+	height:97px;
+	float:left;
+	background:url(../images/logo.png);
+	margin-top:5px;
+}
+.box1 {
+	display:block;
+	width:285px;
+	height:103px;
+	float:left;
+}
+.blackbox {
+	display:block;
+	width:266px;
+	height:46px;
+	margin-top:19px;
+	margin-left:19px;
+	background:#000;
+	float:left;
+}
+.search {
+	display:block;
+	width:285px;
+	height:28px;
+	float:left;
+	margin-top:7px;
+	background:url(../images/searchbg.png);
+}
+.blackbox_text {
+	color:#fff;
+	font-size:7.5px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.lock-icon {
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../images/icons/lockicon.png);
+	float:left;
+}
+.phone-icon {
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../images/icons/phoneicon.png);
+	float:left;
+}
+.your-account {
+	display:block;
+	width:87px;
+	height:35px;
+	float:left;
+	margin-top:4px;
+}
+.divider {
+	display:block;
+	width:2px;
+	height:45px;
+	float:left;
+	background:url(../images/divider.png);
+	margin-left:11px;
+	margin-right:11px;
+}
+.mycart {
+	display:block;
+	width:42px;
+	height:40px;
+	background:url(../images/icons/carticon.png);
+	float:right;
+	margin-top:8px;
+}
+.links a {
+	text-decoration:none;
+	color:#fff;
+}
+.links a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+.inputbox {
+	width:206px;
+	height:16px;
+	border:none;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	font-size:8px;
+	float:left;
+	margin-top:7px;
+	margin-left:5px;
+}
+.image_search {
+	margin-top:7px;
+	margin-left:3px;
+}
+#nav {
+	display:block;
+	width:auto;
+	height:108px;
+	float:left;
+	margin-left:14px;
+}
+li {
+	display:block;
+	width:auto;
+	height:auto;
+	float:left;
+	margin-right:2px;
+	margin-left:2px;
+}
+.banner {
+	display:block;
+	width:944px;
+	height:318px;
+	float:left;
+}
+.cat {
+	display:block;
+	width:944px;
+	height:62px;
+	background:url(../images/navbg.png);
+	float:left;
+	margin-top:5px;
+}
+#navCatTabs ul {
+	list-style:none;
+	margin-left:10px;
+	margin-top:3px;
+}
+.category-top {
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:31px;
+	float:left;
+	margin-right:8px;
+	margin-left:8px;
+	text-decoration:none;
+}
+.category-top:hover {
+	color:#999;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:31px;
+	float:left;
+	text-decoration:none;
+}
+.divide {
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:31px;
+	float:left;
+	text-decoration:none;
+}
+.showbrands a {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:31px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	text-decoration:none;
+}
+.showbrands a:hover {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:31px;
+	float:left;
+	text-decoration:underline;
+	padding-left:10px;
+	padding-right:10px;
+}
+.addrow1 {
+	display:block;
+	width:944px;
+	height:176px;
+	float:left;
+	margin-top:10px;
+}
+.add1 {
+	display:block;
+	width:310px;
+	height:176px;
+	background:url(../images/add1.png);
+	float:left;
+	margin-right:10px;
+}
+.add2 {
+	display:block;
+	width:307px;
+	height:176px;
+	background:url(../images/add2.png);
+	float:left;
+	margin-right:11px;
+}
+.add3 {
+	display:block;
+	width:306px;
+	height:176px;
+	background:url(../images/add3.png);
+	float:left;
+}
+.addrow2 {
+	display:block;
+	width:944px;
+	height:211px;
+	float:left;
+	margin-top:10px;
+}
+.badd1 {
+	display:block;
+	width:461px;
+	height:211px;
+	background:url(../images/badd1.png);
+	float:left;
+}
+.badd2 {
+	display:block;
+	width:460px;
+	height:211px;
+	background:url(../images/badd2.png);
+	float:right;
+}
+.addrow3 {
+	display:block;
+	width:944px;
+	height:212px;
+	float:left;
+	margin-top:10px;
+}
+.badd3 {
+	display:block;
+	width:461px;
+	height:212px;
+	background:url(../images/badd3.png);
+	float:left;
+}
+.badd4 {
+	display:block;
+	width:460px;
+	height:212px;
+	background:url(../images/badd4.png);
+	float:right;
+}
+.footerbar {
+	display:block;
+	width:944px;
+	height:90px;
+	background:#fff;
+	margin:auto;
+	margin-top:15px;
+}
+.contactusbox {
+	display:block;
+	width:133px;
+	height:71px;
+	float:left;
+	margin-left:11px;
+	margin-top:11px;
+}
+.socialbox {
+	display:block;
+	width:147px;
+	height:71px;
+	float:left;
+	margin-left:11px;
+	margin-top:11px;
+}
+.footerbartext a {
+	color:#7b7b7c;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+.footerbartext a:hover {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+.contact_imag1 {
+	display:block;
+	width:39px;
+	height:42px;
+	background:url(../images/contact1.png);
+	float:left;
+}
+.contact_imag2 {
+	display:block;
+	width:47px;
+	height:42px;
+	background:url(../images/contact2.png);
+	float:left;
+}
+.contact_imag3 {
+	display:block;
+	width:46px;
+	height:42px;
+	background:url(../images/contact3.png);
+	float:left;
+}
+.twitter {
+	display:block;
+	width:39px;
+	height:42px;
+	background:url(../images/icons/twittericon.png);
+	float:left;
+	margin-right:6px;
+}
+.facebook {
+	display:block;
+	width:38px;
+	height:42px;
+	background:url(../images/icons/facebookicon.png);
+	float:left;
+	margin-right:6px;
+}
+.youtube {
+	display:block;
+	width:38px;
+	height:42px;
+	background:url(../images/icons/youtubeicon.png);
+	float:left;
+}
+.companylogos {
+	display:block;
+	width:auto;
+	height:77px;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+.clogo1 {
+	display:block;
+	width:81px;
+	height:77px;
+	background:url(../images/honda.png);
+	float:left;
+}
+.clogo2 {
+	display:block;
+	width:89px;
+	height:77px;
+	background:url(../images/yamaha.png);
+	float:left;
+}
+.clogo3 {
+	display:block;
+	width:69px;
+	height:77px;
+	background:url(../images/kawasaki.png);
+	float:left;
+}
+.clogo4 {
+	display:block;
+	width:59px;
+	height:77px;
+	background:url(../images/ducati.png);
+	float:left;
+}
+.clogo5 {
+	display:block;
+	width:81px;
+	height:77px;
+	background:url(../images/honda.png);
+	float:left;
+}
+.clogo6 {
+	display:block;
+	width:181px;
+	height:77px;
+	background:url(../images/triumph.png);
+	float:left;
+}
+.clogo7 {
+	display:block;
+	width:57px;
+	height:77px;
+	background:url(../images/suzuki.png);
+	float:left;
+}
+.footer {
+	margin:auto;
+	display:block;
+	width:944px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff;
+	line-height:30px;
+}
+.footer a.flinks {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+.footer a.flinks:hover {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:underline;
+}
+.scroller_block {
+	width:944px;
+	height:318px;
+}
+.container {
+	width:944px;
+	height:318px;
+	overflow:hidden;
+	position:relative;
+}
+div.slides {
+	position:absolute;
+	top:0;
+	left:0;
+}
+ul.slides {
+	position:absolute;
+	top:0;
+	left:0;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+div.slides > div, ul.slides li {
+	position: absolute;
+	top: 0;
+	width: 998px;
+	display: none;
+	padding: 0;
+	margin: 0;
+	height: 312px;
+}
+/*
+
+	* Optional
+
+*/
+
+#loopedSlider {
+	margin:0 auto;
+	width:944px;
+	position:relative;
+	clear:both;
+}
+ul.pagination {
+	position:absolute;
+	margin:200px 0 0 95px;
+	z-index:110;
+}
+ul.pagination li {
+	float:left;
+	margin:0 10px 0 0;
+}
+ul.pagination li a {
+	display:block;
+	width:98px;
+	height:74px;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#2E2E2E;
+	text-decoration:none;
+}
+ul.pagination li.active a {
+	background:url(../images/arrow-head.png) no-repeat 0 0;
+	color:#fff;
+	height:77px;
+}
+#indexHomeBody {
+	background-color:#111;
+}
+#indexDefaultHeading {
+	display:none;
+}
+#mainWrapper {
+	display:block;
+	width:944px;
+	margin:auto;
+}
+#siteinfoIP {
+	text-align:center;
+	color:white;
+}
+#siteinfoLegal {
+	text-align:center;
+	color:white;
+}

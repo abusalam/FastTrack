@@ -79,15 +79,11 @@
 
 // the following IF statement can be duplicated/modified as needed to set additional flags
 
-  if (in_array($current_page_base,explode(",",'list_pages_to_skip_all_right_sideboxes_on_here,separated_by_commas,and_no_spaces')) ) {
+  if (in_array($current_page_base,explode(",",'index')) ) {
 
-    $flag_disable_right = true;
+    $flag_disable_left = true;
 
   }
-
-
-
-
 
   $header_template = 'tpl_header.php';
 

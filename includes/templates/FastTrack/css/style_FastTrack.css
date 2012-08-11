@@ -7,29 +7,23 @@
 body {
 	color: #fff;
 	background-color: #111;
+	margin: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 62.5%;
 }
 #mainWrapper {
 	display:block;
 	width:944px;
 	height:auto;
 	margin:auto;
-	background-color:dimGray;
 	text-align: left;
 	vertical-align: top;
 }
-.header {
+#logoWrapper {
 	display:block;
-	width:950px;
+	width:944px;
 	height:108px;
 	margin:auto;
-}
-.logo {
-	display:block;
-	width:279px;
-	height:97px;
-	float:left;
-	background:url(../images/logo.png);
-	margin-top:5px;
 }
 .box1 {
 	display:block;
@@ -39,10 +33,10 @@ body {
 }
 .blackbox {
 	display:block;
-	width:266px;
+	width:270px;
 	height:46px;
-	margin-top:19px;
-	margin-left:19px;
+	margin-top:15px;
+	margin-left:6px;
 	background:#000;
 	float:left;
 }
@@ -75,7 +69,7 @@ body {
 }
 .your-account {
 	display:block;
-	width:87px;
+	width:90px;
 	height:35px;
 	float:left;
 	margin-top:4px;
@@ -120,12 +114,64 @@ body {
 	margin-top:7px;
 	margin-left:3px;
 }
-#nav {
+#navMainFT {
 	display:block;
 	width:auto;
 	height:108px;
 	float:left;
-	margin-left:14px;
+	margin-left:8px;
+}
+#navMainFT  div{
+	float:left;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.menuHome, .menuAccount, .menuAccount, .menuFreeShip, .menuQuote, .menuCart, .menuContact{
+	display:block;
+	width:58px;
+	height:108px;
+	margin:0px;
+	padding:0px;
+	background-repeat: no-repeat;
+}
+.menuHome span, .menuAccount span, .menuFreeShip span, .menuQuote span, .menuCart span, .menuContact span {
+	display:none;
+}
+.menuHome{
+	background:url(../images/menus/home.png);
+}
+.menuHome:hover {
+	background:url(../images/menus/home-hover.png);
+}
+.menuAccount {
+	background:url(../images/menus/myaccount.png);
+}
+.menuAccount:hover {
+	background:url(../images/menus/myaccount-hover.png);
+}
+.menuFreeShip{
+	background:url(../images/menus/free-shipping.png);
+}
+.menuFreeShip:hover {
+	background:url(../images/menus/free-shipping-hover.png);
+}
+.menuQuote{
+	background:url(../images/menus/quote.png);
+}
+.menuQuote:hover {
+	background:url(../images/menus/quote-hover.png);
+}
+.menuCart{
+	background:url(../images/menus/viewcart.png);
+}
+.menuCart:hover {
+	background:url(../images/menus/viewcart-hover.png);
+}
+.menuContact{
+	background:url(../images/menus/contact.png);
+}
+.menuContact:hover {
+	background:url(../images/menus/contact-hover.png);
 }
 li {
 	display:block;
@@ -141,18 +187,8 @@ li {
 	height:318px;
 	float:left;
 }
-.cat {
-	display:block;
-	width:944px;
-	height:62px;
-	background:url(../images/navbg.png);
-	float:left;
-	margin-top:5px;
-}
-#navCatTabs ul {
-	list-style:none;
-	margin-left:10px;
-	margin-top:3px;
+.showbrands {
+float: left;
 }
 .category-top {
 	color:#fff;
@@ -292,19 +328,17 @@ li {
 }
 .contactusbox {
 	display:block;
-	width:133px;
 	height:71px;
 	float:left;
 	margin-left:11px;
-	margin-top:11px;
+	margin-top:0px;
 }
 .socialbox {
 	display:block;
-	width:147px;
 	height:71px;
 	float:left;
 	margin-left:11px;
-	margin-top:11px;
+	margin-top:0px;
 }
 .footerbartext a {
 	color:#7b7b7c;
@@ -419,7 +453,7 @@ li {
 	background:url(../images/suzuki.png);
 	float:left;
 }
-.footer {
+#navSupp {
 	margin:auto;
 	display:block;
 	width:944px;
@@ -429,14 +463,14 @@ li {
 	color:#fff;
 	line-height:30px;
 }
-.footer a.flinks {
+#navSupp a.flinks {
 	text-align:center;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
 	color:#fff;
 	text-decoration:none;
 }
-.footer a.flinks:hover {
+#navSupp a.flinks:hover {
 	text-align:center;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px;
@@ -518,10 +552,86 @@ ul.pagination li.active a {
 #indexDefaultHeading {
 	display:none;
 }
-#mainWrapper {
+#navMainWrapper, #navSuppWrapper, #navCatTabsWrapper {
+	font-weight: bold;
+	color: #ffffff;
+	height: 1%;
+	width: 100%;
+	float:left;
+	padding-bottom: 10px;
+}
+#navMain ul, #navSupp ul, #navCatTabs ul {
+	margin: 0;
+	padding:  0.5em 0em;
+	list-style-type: none;
+	text-align: center;
+	line-height: 1.5em;
+}
+#navMain ul li, #navSupp ul li, #navCatTabs ul li {
+	display: inline;
+}
+#navMain ul li a, #navSupp ul li a, #navCatTabs ul li a {
+	text-decoration: none;
+	padding: 0em 0.5em;
+	margin: 0;
+	color: #ffffff;
+	white-space: nowrap;
+}
+#navCatTabs{
 	display:block;
 	width:944px;
-	margin:auto;
+	height:62px;
+	background:url(../images/navbg.png);
+	float:left;
+	margin-top:5px;
+}
+#navCatTabs ul {
+	margin-left:40px;
+}
+#navColumnOne {
+	background-color: #111;
+}
+.columnLeft {
+}
+.sideBoxContent {
+	background-color: #ACA7A7;
+	padding-bottom: 20px;
+}
+h3.leftBoxHeading, h3.leftBoxHeading a {
+	font-size: 12px;
+	color: #ffffff;
+}
+.leftBoxHeading, .centerBoxHeading {
+	margin: 0em;
+	background-color: #600;
+	padding: 0.5em 0.2em;
+}
+.leftBoxContainer {
+	margin-top: 0px;
+	margin-left: -10px;
+	padding-bottom: 20px;
+}
+h3.leftBoxHeading a:hover {
+	color: #FFFF33;
+	text-decoration: none;
+}
+.centerColumn, #bannerOne, #bannerTwo, #bannerThree, #bannerFour, #bannerFive, #bannerSix {
+padding: 10px;
+background-color: white;
+color: black;
+}
+#indexDefault {
+background-color: #111;
+padding: 0px;
+}
+#navBreadCrumb {
+background-color: #069;
+}
+#navBreadCrumb, #navEZPagesTop {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0em;
+	padding: 10px;
 }
 #siteinfoIP {
 	text-align:center;
@@ -530,4 +640,7 @@ ul.pagination li.active a {
 #siteinfoLegal {
 	text-align:center;
 	color:white;
+}
+.smallText, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP {
+	font-size: 0.9em;
 }

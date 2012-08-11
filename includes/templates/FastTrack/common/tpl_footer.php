@@ -41,10 +41,68 @@ require(DIR_WS_MODULES . zen_get_module_directory('footer.php'));
 if (!isset($flag_disable_footer) || !$flag_disable_footer) {
 
 ?>
+<!--bof FooterBar -->
+
+<div class="footerbar">
+	<div class="contactusbox">
+		<p class="footerbartext">
+			<a href="#">Contact Us</a>
+		</p>
+		<p class="footerbartext">
+			<a href="#" style="font-size: 10px; margin-top: 2px;">Call,Click or Email us</a>
+		</p>
+		<a href="#">
+		<div class="contact_imag1"></div>
+		</a> <a href="#">
+		<div class="contact_imag2"></div>
+		</a> <a href="#">
+		<div class="contact_imag3"></div>
+		</a> 
+	</div>
+	<div class="socialbox">
+		<p class="footerbartext"> 
+			<a href="#">Follow Us</a> 
+		</p>
+		<p class="footerbartext">
+			<a href="#" style="font-size: 10px; margin-top: 2px;">Twitt us, Add us, Watch us</a>
+		</p>
+		<a href="#">
+			<div class="twitter"></div>
+		</a> 
+		<a href="#">
+			<div class="facebook"></div>
+		</a> 
+		<a href="#">
+			<div class="youtube"></div>
+		</a> 
+	</div>
+	<div class="companylogos">
+		<a href="#">
+		<div class="clogo1"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo2"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo3"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo4"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo5"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo6"></div>
+		</a> 
+		<a href="#">
+		<div class="clogo7"></div>
+		</a> 
+	</div>
+</div>
+<!--eof FooterBar --> 
 
 <!--bof-navigation display -->
-
-
 <div id="navSuppWrapper">
   <div id="navSupp">
     <ul>

@@ -29,10 +29,44 @@
 <div id="navCatTabsWrapper">
   <div id="navCatTabs">
     <ul>
-      <?php for ($i=0, $n=sizeof($links_list); $i<$n; $i++) { ?>
+	<?php// for ($i=0, $n=sizeof($links_list); $i<$n; $i++) { ?>
+      <?php for ($i=0, $n=sizeof($links_list); $i<7; $i++) { ?>
+	  <li class="divide">|</li>
       <li><?php echo $links_list[$i];?></li>
       <?php } ?>
+	  <li class="divide">|</li>
     </ul>
+	
+	<div class="showbrands">
+    	<a href="#">Show Brands &gt;&gt;</a>
+        <a href="#">A</a>
+        <a href="#">B</a>
+        <a href="#">C</a>
+         <a href="#">D</a>
+        <a href="#">E</a>
+        <a href="#">F</a>
+         <a href="#">G</a>
+        <a href="#">H</a>
+        <a href="#">I</a>
+         <a href="#">J</a>
+        <a href="#">K</a>
+        <a href="#">L</a>
+         <a href="#">M</a>
+        <a href="#">N</a>
+        <a href="#">O</a>
+         <a href="#">P</a>
+        <a href="#">Q</a>
+        <a href="#">R</a>
+        <a href="#">S</a>
+        <a href="#">T</a>
+         <a href="#">U</a>
+        <a href="#">V</a>
+        <a href="#">W</a>
+         <a href="#">X</a>
+        <a href="#">Y</a>
+        <a href="#">Z</a>
+               <a href="#">ALL</a>
+    </div>
   </div>
 </div>
 <?php } ?>

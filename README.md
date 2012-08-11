@@ -9,7 +9,9 @@ ZenCart Template for 1.5.0
 	- Define Breadcrumb Status = 2
 	- CSS Buttons = yes
 	- Customer Greeting - Show on Index Page = 0
-
+3. Disable all products in index listing
+	`Goto: Admin > Configuration > Index Listing >`
+	
 ### Usage ###
 _Just Upload to ZenCart directory and extract._
 	`Goto: Admin > Tool > Template Selection >`

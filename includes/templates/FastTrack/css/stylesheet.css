@@ -16,15 +16,6 @@
 
  */
 
-
-
-body {
-	margin: 0;
-	font-family: verdana, arial, helvetica, sans-serif;
-	font-size: 62.5%;
-	color: #000000;
-	background-color: #e5edf5;
-}
 a img {
 	border: none;
 }
@@ -32,10 +23,7 @@ a:link, #navEZPagesTOC ul li a {
 	color: #3300FF;
 	text-decoration: none;
 }
-a:visited {
-	color: #3300FF;
-	text-decoration: none;
-}
+
 a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover {
 	color: #FF0000;
 }
@@ -146,13 +134,7 @@ HR {
 }
 /*wrappers - page or section containers*/
 
-#mainWrapper {
-	background-color: #ffffff;
-	text-align: left;
-	width: 100%;
-	vertical-align: top;
-}
-#headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {
+#headerWrapper, #contentMainWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {
 	margin: 0em;
 	padding: 0em;
 }
@@ -196,31 +178,6 @@ HR {
 	padding:  0.5em 0em;
 	list-style-type: none;
 }
-#navMainWrapper, #navSuppWrapper, #navCatTabsWrapper {
-	margin: 0em;
-	background-color: #9a9a9a;
-	font-weight: bold;
-	color: #ffffff;
-	height: 1%;
-	width: 100%;
-}
-#navMain ul, #navSupp ul, #navCatTabs ul {
-	margin: 0;
-	padding:  0.5em 0em;
-	list-style-type: none;
-	text-align: center;
-	line-height: 1.5em;
-}
-#navMain ul li, #navSupp ul li, #navCatTabs ul li {
-	display: inline;
-}
-#navMain ul li a, #navSupp ul li a, #navCatTabs ul li a {
-	text-decoration: none;
-	padding: 0em 0.5em;
-	margin: 0;
-	color: #ffffff;
-	white-space: nowrap;
-}
 #navEZPagesTOCWrapper {
 	font-weight: bold;
 	float: right;
@@ -246,20 +203,8 @@ HR {
 #navMainSearch {
 	float: right;
 }
-#navBreadCrumb {
-	background-color: #cc9900;
-}
 #navEZPagesTop {
 	background-color: #ffff33;
-}
-#navBreadCrumb, #navEZPagesTop {
-	font-size: 0.95em;
-	font-weight: bold;
-	margin: 0em;
-	padding: 0.5em;
-}
-#navColumnOne {
-	background-color: #FFCC99;
 }
 #navColumnTwo {
 	background-color: #00BFBF;
@@ -290,12 +235,7 @@ HR {
 .gvBal {
 	float: right;
 }
-.centerColumn, #bannerOne, #bannerTwo, #bannerThree, #bannerFour, #bannerFive, #bannerSix {
-	padding: 0.8em;
-}
-.smallText, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP {
-	font-size: 0.9em;
-}
+
 /*Shopping Cart Display*/
 
 #cartAdd {
@@ -419,26 +359,6 @@ HR {
 	margin: 1em 0em;
 }
 /*sideboxes*/
-
-.columnLeft {
-}
-h3.leftBoxHeading, h3.leftBoxHeading a {
-	font-size: 1em;
-	color: #ffffff;
-}
-.leftBoxHeading, .centerBoxHeading {
-	margin: 0em;
-	background-color: #FF6699;
-	padding: 0.5em 0.2em;
-}
-.leftBoxContainer {
-	border: 1px solid #ffffff;
-	margin-top: 1.5em;
-}
-.sideBoxContent {
-	background-color: #ffffff;
-	padding: 0.4em;
-}
 h3.rightBoxHeading, h3.rightBoxHeading a {
 	font-size: 1.1em;
 	color: #FFFF00;
@@ -448,10 +368,7 @@ h3.rightBoxHeading, h3.rightBoxHeading a {
 	background-color: #663366;
 	padding: 0.2em 0em;
 }
-h3.leftBoxHeading a:hover {
-	color: #FFFF33;
-	text-decoration: none;
-}
+
 h3.rightBoxHeading a:hover {
 	color: #FF0000;
 	text-decoration: none;

@@ -76,29 +76,30 @@ if (!isset($flag_disable_footer) || !$flag_disable_footer) {
 			<div class="youtube"></div>
 		</a> 
 	</div>
-	<div class="companylogos">
-		<a href="#">
-		<div class="clogo1"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo2"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo3"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo4"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo5"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo6"></div>
-		</a> 
-		<a href="#">
-		<div class="clogo7"></div>
-		</a> 
-	</div>
+<!--bof manufacturer logos tpl_footer.php-->
+<?php
+global $db;
+$sql = "select manufacturers_id, manufacturers_name, manufacturers_image from " . TABLE_MANUFACTURERS." limit 7";
+$manufacturers = $db->Execute($sql);
+if ($manufacturers->RecordCount() > 0) {
+	$content = "";
+	$content .= '<div class="companylogos" style="background-color:#fff;">';
+  	while (!$manufacturers->EOF) {
+		$content.= zen_draw_form('manufacturers_form', zen_href_link(FILENAME_DEFAULT, '', $request_type, false), 'get');
+		$content .= zen_draw_hidden_field('main_page',FILENAME_DEFAULT);
+		$content .= zen_draw_hidden_field('manufacturers_id', $manufacturers->fields['manufacturers_id']);
+		$content .= '<input type="image" src="'.DIR_WS_IMAGES . $manufacturers->fields['manufacturers_image'].'" title="'
+				.$manufacturers->fields['manufacturers_name'].'" />'.zen_hide_session_id();
+		$content .= '</form>';
+		$manufacturers->MoveNext();
+  	}
+	$content .= '</div>';
+} else {
+  $content='<p>Sorry, no manufacturers image found.</p>';
+}
+echo $content
+?>
+<!--eof manufacturer logos tpl_footer.php--> 
 </div>
 <!--eof FooterBar --> 
 

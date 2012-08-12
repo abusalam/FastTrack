@@ -20,7 +20,7 @@
 
 $template_name = 'FastTrack Template';
 
-$template_version = 'Version 1.0';
+$template_version = 'Version 1.1';
 
 $template_author = 'Sanket Solutions Team (c) 2012';
 

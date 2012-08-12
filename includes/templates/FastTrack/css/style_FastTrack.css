@@ -11,6 +11,9 @@ body {
 	font-family: verdana, arial, helvetica, sans-serif;
 	font-size: 62.5%;
 }
+P, ADDRESS {
+	padding: 0.5em;
+}
 #mainWrapper {
 	display:block;
 	width:944px;
@@ -37,7 +40,7 @@ body {
 	height:46px;
 	margin-top:15px;
 	margin-left:6px;
-	background:#000;
+	background:#111;
 	float:left;
 }
 .search {
@@ -177,7 +180,6 @@ li {
 	display:block;
 	width:auto;
 	height:auto;
-	float:left;
 	margin-right:2px;
 	margin-left:2px;
 }
@@ -326,19 +328,22 @@ float: left;
 	margin:auto;
 	margin-top:15px;
 }
+.footerbar p{
+	padding:0px;
+}
 .contactusbox {
 	display:block;
 	height:71px;
 	float:left;
 	margin-left:11px;
-	margin-top:0px;
+	margin-top:11px;
 }
 .socialbox {
 	display:block;
 	height:71px;
 	float:left;
 	margin-left:11px;
-	margin-top:0px;
+	margin-top:11px;
 }
 .footerbartext a {
 	color:#7b7b7c;
@@ -553,7 +558,6 @@ ul.pagination li.active a {
 	display:none;
 }
 #navMainWrapper, #navSuppWrapper, #navCatTabsWrapper {
-	font-weight: bold;
 	color: #ffffff;
 	height: 1%;
 	width: 100%;

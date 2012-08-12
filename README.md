@@ -11,6 +11,9 @@ ZenCart Template for 1.5.0
 	- Customer Greeting - Show on Index Page = 0
 3. Disable all products in index listing
 	`Goto: Admin > Configuration > Index Listing >`
+4. Change Footer Menu Separator
+	`Goto: Admin > Configuration > EZ-Pages Settings >`
+	- EZ-Pages Footer Link Separator from "::" to "|"
 	
 ### Usage ###
 _Just Upload to ZenCart directory and extract._

@@ -19,17 +19,6 @@
 a img {
 	border: none;
 }
-a:link, #navEZPagesTOC ul li a {
-	color: #3300FF;
-	text-decoration: none;
-}
-
-a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover {
-	color: #FF0000;
-}
-a:active {
-	color: #0000FF;
-}
 h1 {
 	font-size: 1.5em;
 }

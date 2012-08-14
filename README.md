@@ -22,6 +22,7 @@ ZenCart Template for 1.5.0
 
 	`Goto: Admin > Tools > Layout Sideboxes Controller >`
 	- Scroll to the bottom and click reset
+
 ### Usage ###
 _Just Upload to ZenCart directory and extract._
 

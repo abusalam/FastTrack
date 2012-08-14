@@ -312,7 +312,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 				while(!$slideshow_result->EOF)
 				{
 				?>
-      <li> <a href="<?php echo $slideshow_result->fields['url']; ?>"> <img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/slideshow/'.$slideshow_result->fields['image']; ?>"   alt="slide image" /> <img class="price" src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/slideshow/price_bg.png'?>"   alt="slide price" /> <span class="price_text"><?php echo $slideshow_result->fields['price']?></span> </a> </li>
+      <li> <a href="<?php echo $slideshow_result->fields['url']; ?>"> <img src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/slideshow/'.$slideshow_result->fields['image']; ?>"   alt="slide image" /> <!--img class="price" src="<?php  echo $template->get_template_dir('',DIR_WS_TEMPLATE, $current_page_base,'images').'/slideshow/price_bg.png'?>"   alt="slide price" /--> <span class="price_text"><?php echo $slideshow_result->fields['price']?></span> </a> </li>
       <?php 
 				$slideshow_result->MoveNext();
 				} //end while

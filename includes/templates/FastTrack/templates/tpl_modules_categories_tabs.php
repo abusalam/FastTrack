@@ -30,7 +30,7 @@
   <div id="navCatTabs">
     <ul>
 	<?php// for ($i=0, $n=sizeof($links_list); $i<$n; $i++) { ?>
-      <?php for ($i=0, $n=sizeof($links_list); $i<7; $i++) { ?>
+      <?php for ($i=0, $n=sizeof($links_list); $i<8; $i++) { ?>
 	  <li class="divide">|</li>
       <li><?php echo $links_list[$i];?></li>
       <?php } ?>

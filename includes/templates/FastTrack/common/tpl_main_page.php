@@ -247,6 +247,7 @@ if (COLUMN_RIGHT_STATUS == 0 || (CUSTOMERS_APPROVAL == '1' and $_SESSION['custom
   $flag_disable_right = true;
 
 }
+$flag_disable_right = true;
 
 if (!isset($flag_disable_right) || !$flag_disable_right) {
 
